@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.svg">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>SeleCar</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">SeleCar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cotizaciones.html">Cotizaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contabilidad.html">Contabilidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#noticias">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#snosotros">Sobre Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <legend class="m-5">Bienvenido</legend>
+        <div id="carouselExample" class="carousel slide m-5">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <img src="imagenes/fordfiesta.jpg" class="h-50 w-50" alt="fiestacarr">
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="imagenes/fordfocus.jpg" class="h-50 w-50" alt="focuscarr">
+                </div>
+            </div>
+            <button style="background-color: gray;" class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button style="background-color: gray;" class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+        <div>
+            <p class="ms-5 me-5 mb-5">Contamos con un catálogo extenso de vehículos de varias marcas 
+            reconocidas, incluyendo ferraris, ford y muchas marcas más...</p>
+        </div>
+        <hr>
+        <legend class="ms-5" id="snosotros">Sobre Nosotros</legend>
+        <legend class="ms-5">Misión</legend>
+        <div class="m-5" style="text-align: justify;">
+            <p>En SeleCar trabajamos para proporcionar la más alta satisfacción de 
+            nuestros clientes y demás grupos de interés, comercializando vehículos nuevos y usados, 
+            montacargas, repuestos y accesorios originales con todo el respaldo del servicio posventa.</p>
+        </div>
+        <legend class="ms-5">Visión</legend>
+        <div class="m-5" style="text-align: justify;">
+            <p>Ser el concesionario más respetado, admirado y reconocido en la región, como también 
+            ser el mejor concesionario de todo el país para nuestros importadores.</p>
+        </div>
+        <hr>
+        <legend class="ms-5" id="noticias">Noticias</legend>
+        <div class="d-flex justify-content-center">
+            <div class="card contenedor-tarjeta" style="width: 18rem;">
+                <img src="imagenes/fordfiesta.jpg" class="card-img-top" alt="fiestanot">
+                <div class="card-body">
+                    <p class="card-text text-center text-primary">Ya disponible ford fiesta!</p>
+                </div>
+            </div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div class="card contenedor-tarjeta" style="width: 18rem;">
+                <img src="imagenes/fordfocus.jpg" class="card-img-top" alt="focusnot">
+                <div class="card-body">
+                    <p class="card-text text-center text-primary">LLego el nuevo ford focus!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <footer style="background-color: black; height: 60px;">
+        <p style="color: white; padding: 5px;">Dirección: Quitumbe, calle 72F &nbsp;&nbsp;&nbsp;&nbsp; Telefonos de Contacto: 
+        099999999 <br> Correo Electrónico: contacto@selecar.com</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
